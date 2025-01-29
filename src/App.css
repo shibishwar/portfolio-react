@@ -1,0 +1,15 @@
+.mobile-nav{
+    @apply fixed top-14 left-0 bg-gray-600 w-full h-1/4;
+}
+
+.mobile-nav li{
+    @apply w-full h-full text-center border-b-2 p-2;
+}
+
+.btn{
+    @apply bg-secondary px-2 py-2 font-bold rounded-lg hover:bg-primary;
+}
+
+html{
+    scroll-behavior: smooth;
+}
